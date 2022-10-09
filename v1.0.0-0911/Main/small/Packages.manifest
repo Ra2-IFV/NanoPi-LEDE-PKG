@@ -1,0 +1,33 @@
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+Source: feeds/small/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1662691608
+Maintainer: pexcn <i@pexcn.me>
+Architecture: aarch64_generic
+Installed-Size: 17744
+Filename: chinadns-ng_1.0-beta.25-1_aarch64_generic.ipk
+Size: 18515
+SHA256sum: 92e47237118502502a25b65fa74a0b658b22c682dd77371d4883f78a27eb94ea
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/small/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1662691608
+Maintainer: Trojan-Plus-Group
+Architecture: aarch64_generic
+Installed-Size: 415865
+Filename: trojan-plus_10.0.3-2_aarch64_generic.ipk
+Size: 416680
+SHA256sum: d47d52f3e577b7d64fb7628899783004bfc0bc1e0776ac3de545e69524623b3b
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
