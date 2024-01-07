@@ -1,0 +1,16 @@
+Package: luci-app-ser2net
+Version: git-24.006.34346-db31798
+Depends: libc, luci-base, ser2net
+Source: feeds/openwrt_luci/applications/luci-app-ser2net
+SourceName: luci-app-ser2net
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1704533546
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1734
+Filename: luci-app-ser2net_git-24.006.34346-db31798_all.ipk
+Size: 2591
+SHA256sum: 01d874c98b95562266783233e91c216760cd1d5b5c3fb2207841b33272870fad
+Description:  LuCI Support for ser2net
+

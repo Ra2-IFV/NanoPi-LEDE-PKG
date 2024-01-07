@@ -1,0 +1,119 @@
+Package: luci-app-bypass
+Version: git-24.005.44174-7093c9e-1
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, microsocks
+Source: feeds/small/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1703464932
+Architecture: all
+Installed-Size: 2646490
+Filename: luci-app-bypass_git-24.005.44174-7093c9e-1_all.ipk
+Size: 2465152
+SHA256sum: c79dbed1ec04e603850fe10b768198d8be3bec55f84b495638904c08ed2cc571
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-passwall2
+Version: 1.22-1
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, haproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs
+Source: feeds/small/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1703938469
+Architecture: all
+Installed-Size: 205153
+Filename: luci-app-passwall2_1.22-1_all.ipk
+Size: 206174
+SHA256sum: 0e758c1d3b56cbd0b8efd3e72f3e95349b35c177135f64a900e302c265b04772
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.71-3
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, haproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, simple-obfs
+Source: feeds/small/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1703464932
+Architecture: all
+Installed-Size: 964276
+Filename: luci-app-passwall_4.71-3_all.ipk
+Size: 964271
+SHA256sum: d31938bbfe22ac3cf4fb39eb90a4e8bff7c3991df6c99dea53fec0b297faf497
+Description:  LuCI support for PassWall
+
+Package: luci-i18n-bypass-zh-cn
+Version: git-24.005.44174-7093c9e-1
+Depends: libc, luci-app-bypass
+Source: feeds/small/luci-app-bypass
+SourceName: luci-i18n-bypass-zh-cn
+Section: luci
+SourceDateEpoch: 1703464932
+Architecture: all
+Installed-Size: 6478
+Filename: luci-i18n-bypass-zh-cn_git-24.005.44174-7093c9e-1_all.ipk
+Size: 7340
+SHA256sum: 5ea75903f958547848261e98b35d89ed0d1c5318e63edb5a9480f3f91250b960
+Description:  Translation for luci-app-bypass - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall-zh-cn
+Version: 4.71-3
+Depends: libc, luci-app-passwall
+Source: feeds/small/luci-app-passwall
+SourceName: luci-i18n-passwall-zh-cn
+Section: luci
+SourceDateEpoch: 1703464932
+Architecture: all
+Installed-Size: 14590
+Filename: luci-i18n-passwall-zh-cn_4.71-3_all.ipk
+Size: 15374
+SHA256sum: e26fc88122c64100452d73ec3b3726f8030ca7b92f63a64c513a315a642cc1fd
+Description:  Translation for luci-app-passwall - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-passwall2-zh-cn
+Version: 1.22-1
+Depends: libc, luci-app-passwall2
+Source: feeds/small/luci-app-passwall2
+SourceName: luci-i18n-passwall2-zh-cn
+Section: luci
+SourceDateEpoch: 1703938469
+Architecture: all
+Installed-Size: 13975
+Filename: luci-i18n-passwall2-zh-cn_1.22-1_all.ipk
+Size: 14756
+SHA256sum: 1e9c0861b0dfdb8f497b63bf08ffaf544c19500c2514f4fac74f5e475ae793a6
+Description:  Translation for luci-app-passwall2 - 简体中文 (Simplified Chinese)
+
+Package: sing-box
+Version: 1.7.8-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+Source: feeds/small/sing-box
+SourceName: sing-box
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1704456974
+Architecture: x86_64
+Installed-Size: 8785575
+Filename: sing-box_1.7.8-1_x86_64.ipk
+Size: 8764861
+SHA256sum: a2793f4ff29d0a9a4d15d2b0ba0ddb0fd2145151c166818ea3fe9c808dd3a368
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
+ Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+Source: feeds/small/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1703464932
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5427137
+Filename: trojan-go_0.10.6-1_x86_64.ipk
+Size: 5416590
+SHA256sum: f9df57908736cd4db9f11efc5cf6d18881725fe4693097ed70b6c6da12af8da5
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+

@@ -1,0 +1,268 @@
+Package: alist
+Version: 3.30.0-2
+Depends: libc, ca-bundle
+Source: feeds/kenzo/alist
+SourceName: alist
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1704456072
+Maintainer: sbwml <admin@cooluc.com>
+Architecture: x86_64
+Installed-Size: 24166724
+Filename: alist_3.30.0-2_x86_64.ipk
+Size: 24086105
+SHA256sum: 4647d324e02cb6f19d4734030a8415bd0dd1f215bad29a01d1ab0ceab0911c9d
+Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
+
+Package: gost
+Version: 2.11.5-1
+Depends: libc, ca-bundle
+Source: feeds/kenzo/gost
+SourceName: gost
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1703484065
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 5327063
+Filename: gost_2.11.5-1_x86_64.ipk
+Size: 5310589
+SHA256sum: 5938e234270081ac787c7b8a7a02b861137c80e96c224b9450b5256c12af8a86
+Description:  GO Simple Tunnel
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: feeds/kenzo/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1703484065
+Maintainer: fabled
+Architecture: x86_64
+Installed-Size: 2513
+Filename: lua-maxminddb_0.2-1_x86_64.ipk
+Size: 3216
+SHA256sum: 17758e8b13e6cf1d7bc3984240b71fb51ce57b089ccc80f6dd674f66c24eaf57
+Description:  libmaxminddb bindings for lua
+
+Package: luci-app-adguardhome
+Version: git-24.006.21640-dac3c52-1
+Depends: libc, ca-certs, curl, wget-ssl, adguardhome
+Source: feeds/kenzo/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
+Architecture: all
+Installed-Size: 90704
+Filename: luci-app-adguardhome_git-24.006.21640-dac3c52-1_all.ipk
+Size: 91879
+SHA256sum: 8ddfd7d89c2ae7acde42b7ee5be701a835cb71097c95d77ed08737c41ffaa517
+Description:  LuCI support for AdGuardHome
+
+Package: luci-app-advanced
+Version: 1.20-20220218
+Depends: libc
+Source: feeds/kenzo/luci-app-advanced
+SourceName: luci-app-advanced
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 12581
+Filename: luci-app-advanced_1.20-20220218_all.ipk
+Size: 13280
+SHA256sum: b201ddd3406dd633d7131828ab7a586d337e21fa28ac7f66773c6006838af2cf
+Description:  LuCI Support for advanced and filebrowser
+
+Package: luci-app-aliddns
+Version: 0.4.1-1
+Depends: libc, openssl-util, curl
+Source: feeds/kenzo/luci-app-aliddns
+SourceName: luci-app-aliddns
+License: MIT
+LicenseFiles: LICENSE
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: chenhw2 <https://github.com/chenhw2/>
+Architecture: all
+Installed-Size: 4869
+Filename: luci-app-aliddns_0.4.1-1_all.ipk
+Size: 5820
+SHA256sum: 98dd2e91c4acbef0172e7d462a6e346bb5c88cfcec1f42eeffc2096827cd0cea
+Description:  LuCI Support for ALiDDNS.
+
+Package: luci-app-alist
+Version: 1.0.11-1
+Depends: libc, alist, luci-compat
+Source: feeds/kenzo/luci-app-alist
+SourceName: luci-app-alist
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 7327
+Filename: luci-app-alist_1.0.11-1_all.ipk
+Size: 8080
+SHA256sum: 0da63e99bce1b6e778b6c05e8dd61cfbe08801f4189c0f3c1f1416c35ac4cbb6
+Description:  LuCI support for alist
+
+Package: luci-app-argone-config
+Version: 1.2-2
+Depends: libc, luci-compat, luci-theme-argone
+Source: feeds/kenzo/luci-app-argone-config
+SourceName: luci-app-argone-config
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 3600
+Filename: luci-app-argone-config_1.2-2_all.ipk
+Size: 4429
+SHA256sum: f7c4b1c5540b0a0f2495750df7c6fb74127b1159e97bd04302fe52466616037d
+Description:  LuCI page for Argone Config
+
+Package: luci-app-gost
+Version: 1.0-1
+Depends: libc, gost
+Source: feeds/kenzo/luci-app-gost
+SourceName: luci-app-gost
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: ImmortalWrt
+Architecture: all
+Installed-Size: 1530
+Filename: luci-app-gost_1.0-1_all.ipk
+Size: 2292
+SHA256sum: dc48ce4656e902bd2b6bf016cbf31ab9f7b2520b074e15d1cd8657c8b4a53c41
+Description:  LuCI support for Gost
+
+Package: luci-i18n-adguardhome-zh-cn
+Version: git-24.006.21640-dac3c52-1
+Depends: libc, luci-app-adguardhome
+Source: feeds/kenzo/luci-app-adguardhome
+SourceName: luci-i18n-adguardhome-zh-cn
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: <https://github.com/rufengsuixing/luci-app-adguardhome>
+Architecture: all
+Installed-Size: 2548
+Filename: luci-i18n-adguardhome-zh-cn_git-24.006.21640-dac3c52-1_all.ipk
+Size: 3428
+SHA256sum: 288d21078abc6e10e0ce7f551289fd4fdc65f3d02f9fa9892fedd58e521bb8d9
+Description:  Translation for luci-app-adguardhome - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-alist-zh-cn
+Version: 1.0.11-1
+Depends: libc, luci-app-alist
+Source: feeds/kenzo/luci-app-alist
+SourceName: luci-i18n-alist-zh-cn
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 1441
+Filename: luci-i18n-alist-zh-cn_1.0.11-1_all.ipk
+Size: 2268
+SHA256sum: 14f0c85ba7f12ef9a2dc2b983f8732ac5ea345f466eef604228ff08e89b1d319
+Description:  Translation for luci-app-alist - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-argone-config-zh-cn
+Version: 1.2-2
+Depends: libc, luci-app-argone-config
+Source: feeds/kenzo/luci-app-argone-config
+SourceName: luci-i18n-argone-config-zh-cn
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: jerrykuku <jerrykuku@qq.com>
+Architecture: all
+Installed-Size: 1604
+Filename: luci-i18n-argone-config-zh-cn_1.2-2_all.ipk
+Size: 2459
+SHA256sum: 7b169c63096c7436716794f100dfd06cc73e1929995fa53b676ae28322045b99
+Description:  Translation for luci-app-argone-config - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-gost-zh-cn
+Version: 1.0-1
+Depends: libc, luci-app-gost
+Source: feeds/kenzo/luci-app-gost
+SourceName: luci-i18n-gost-zh-cn
+Section: luci
+SourceDateEpoch: 1703484065
+Maintainer: ImmortalWrt
+Architecture: all
+Installed-Size: 538
+Filename: luci-i18n-gost-zh-cn_1.0-1_all.ipk
+Size: 1364
+SHA256sum: b5b75df2ca9e2830f1963a650f68bb719c6964d45ed9855a153446fdf1f72ae2
+Description:  Translation for luci-app-gost - 简体中文 (Simplified Chinese)
+
+Package: luci-theme-argone
+Version: 1.8.3-5
+Depends: libc, curl, jsonfilter
+Source: feeds/kenzo/luci-theme-argone
+SourceName: luci-theme-argone
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 424446
+Filename: luci-theme-argone_1.8.3-5_all.ipk
+Size: 425150
+SHA256sum: 231ccdf7bea70da78bbb2f5a041b41c613d88acaded21aec0a6972991a078db7
+Description:  Argone kenzo
+
+Package: luci-theme-atmaterial_new
+Version: 1.2-02-20200209
+Depends: libc
+Source: feeds/kenzo/luci-theme-atmaterial_new
+SourceName: luci-theme-atmaterial_new
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 616621
+Filename: luci-theme-atmaterial_new_1.2-02-20200209_all.ipk
+Size: 617242
+SHA256sum: e6586edbb2ee58bb66403352b8b83a99eaffcba0f32b5162e122420f5830e339
+Description:  Atmaterial_new kenzo
+
+Package: luci-theme-ifit
+Version: 1.5.2-1
+Depends: libc
+Source: feeds/kenzo/luci-theme-ifit
+SourceName: luci-theme-ifit
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 2120766
+Filename: luci-theme-ifit_1.5.2-1_all.ipk
+Size: 2121640
+SHA256sum: 353b19158ae5b888a28642069d68d6f004868a1e809a556c728f0a32a456f1a1
+Description:  Ifit Theme
+
+Package: luci-theme-opentopd
+Version: 1.6.0-20230207
+Depends: libc
+Source: feeds/kenzo/luci-theme-opentopd
+SourceName: luci-theme-opentopd
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 503951
+Filename: luci-theme-opentopd_1.6.0-20230207_all.ipk
+Size: 504811
+SHA256sum: 50564363625d71ebb1810b10bd5c01ac2e2df17506cc29f8efa287ca385bc496
+Description:  LuCI luci-theme-opentopd theme
+
+Package: luci-theme-tomato
+Version: git-24.006.21640-dac3c52-1
+Depends: libc
+Source: feeds/kenzo/luci-theme-tomato
+SourceName: luci-theme-tomato
+Section: luci
+SourceDateEpoch: 1703484065
+Architecture: all
+Installed-Size: 211857
+Filename: luci-theme-tomato_git-24.006.21640-dac3c52-1_all.ipk
+Size: 212659
+SHA256sum: 5c3cc220c32adc2ea3f05e29d9dae55aabfeabc2596626fc2e767aa14474e1dd
+Description:  Tomato new kenzo
+
